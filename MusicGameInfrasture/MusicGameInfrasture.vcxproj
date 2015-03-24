@@ -74,11 +74,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Container.cpp" />
+    <ClCompile Include="mgiAudio.cpp" />
+    <ClCompile Include="mgiContainer.cpp" />
+    <ClCompile Include="mgiVideo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Config.h" />
-    <ClInclude Include="Container.h" />
+    <ClInclude Include="mgiAudio.h" />
+    <ClInclude Include="mgiConfig.h" />
+    <ClInclude Include="mgiContainer.h" />
+    <ClInclude Include="mgiVideo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

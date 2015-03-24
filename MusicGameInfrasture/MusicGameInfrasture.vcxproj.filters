@@ -18,16 +18,28 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Container.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="mgiContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mgiConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mgiVideo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mgiAudio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Container.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Config.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="mgiContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mgiVideo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mgiAudio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

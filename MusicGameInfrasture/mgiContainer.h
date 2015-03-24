@@ -24,14 +24,14 @@ OR TORT(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 /**
-\file Container.h
+\file mgiContainer.h
 
 Note container header file.
 */
 #ifndef _MGI_CONTAINER_H
 #define _MGI_CONTAINER_H
 
-#include "Config.h"
+#include "mgiConfig.h"
 #include <new>
 #include <stddef.h>
 #include <type_traits>
@@ -105,6 +105,7 @@ namespace mgi{
 			pLast = pHead;
 			pCurrent = (uintptr_t)pHead;
 		}
+
 		/**
 		Empty the container, and also free the redundant internal space allocated.
 		*/

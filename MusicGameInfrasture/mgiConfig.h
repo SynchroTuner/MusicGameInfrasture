@@ -24,18 +24,12 @@ OR TORT(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 /**
-\file Container.cpp
+\file mgiConfig.h
 
-Implememtation for note containers.
+Compilation configuration for the whole project.
 */
-#include "Container.h"
+#ifndef _MGI_CONFIGURATION_H
+#define _MGI_CONFIGURATION_H
 
-namespace mgi{
-	void _DummyTestFunction(){
-		CSeqAllocCont<> c;
-		struct arr{ char c[4092]; };
-		void* p = c.Allocate<arr>();
-		c.Clean();
-		c.Reset();
-	}
-}
+
+#endif
